@@ -212,7 +212,7 @@ Debug.Log(bobIsFast); //this will print out true or false depending on what numb
 
 ## Selection statements
 
-# If - else
+### If - else
 Selection statements are literally what the name suggests - depending on a *condition*, we select if we want to execute a certain code block. The most simple example of a selection statement looks like this:
 
 ```
@@ -255,7 +255,7 @@ if (bobIsFast)
 }
 ```
 
-# Switch
+### Switch
 
 Many times we need to handle a situation where a variable can have many different values that we need to react to. Maybe something like this:
 
@@ -309,7 +309,7 @@ Each *case* represent a single value that we are comparing against the variable 
 
 Iteration statements, as the name hints, loop or iterate over a certain block of code as long as some condition is true. These statements give us nice tools to repeat same lines of code for tasks like iterating over all enemies in the game to check if any of them have spotted the player.
 
-# For
+### For
 For-loop is a staple in practically every programming language. It offers a lot of control over the loop in a relatively simple package:
 
 ```
@@ -323,7 +323,7 @@ For statement definition consist of three parts inside the brackets: *initialize
 
 After 10 loops, value of *i* will be 10 and the condition statement *(i < 10)* is *false*, so the loop is finished.
 
-# Foreach
+### Foreach
 For *collections* of items, we have another option for iterating over all items in the collection. This is the *foreach* statement:
 
 ```
@@ -338,17 +338,17 @@ This loop goes over all items in the *numberList*. It starts from the first item
 
 **Keep in mind that removing or adding items to the collection while iterating over it, is a big no-no and can result in errors that are very hard to identify!**
 
-# While
+### While
 This document is still a work in progress, for rest of flow control keywords, refer the [official C# documentation](https://docs.microsoft.com/en-us/dotnet/csharp/) for now!
 
 
-# Do - While
+### Do - While
 
 
 ## Jump statements
 
-# Break
+### Break
 
-# Continue
+### Continue
 
-# Return
+### Return
